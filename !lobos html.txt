@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lobos - Información</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        .card {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .card div {
+            width: 45%;
+            padding: 10px;
+            background-color: #eaeaea;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lobos: Información y Curiosidades</h1>
+    </header>
+
+    <nav>
+        <a href="#introduccion">Introducción</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#habitat">Hábitat</a>
+        <a href="#conservacion">Conservación</a>
+    </nav>
+
+    <section id="introduccion">
+        <h2>Introducción</h2>
+        <p>Los lobos son mamíferos carnívoros pertenecientes a la familia de los cánidos. Son conocidos por su inteligencia, habilidades sociales y su capacidad para vivir en manadas. Existen varias especies de lobos en el mundo, siendo el más común el lobo gris (<i>Canis lupus</i>).</p>
+    </section>
+
+    <section id="caracteristicas">
+        <h2>Características</h2>
+        <div class="card">
+            <div>
+                <h3>Apariencia</h3>
+                <p>Los lobos tienen cuerpos robustos, pelaje grueso y colas largas. Su coloración varía desde el gris hasta tonos marrones o blancos, dependiendo de la subespecie y el entorno en el que viven.</p>
+            </div>
+            <div>
+                <h3>Comportamiento</h3>
+                <p>Viven en manadas lideradas por una pareja alfa. Son animales muy sociales y cooperan para cazar presas grandes como ciervos y bisontes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="habitat">
+        <h2>Hábitat</h2>
+        <p>Los lobos habitan una amplia gama de ecosistemas, desde bosques, montañas y tundras, hasta desiertos. Se encuentran principalmente en el hemisferio norte, en regiones de América del Norte, Europa y Asia.</p>
+    </section>
+
+    <section id="conservacion">
+        <h2>Conservación</h2>
+        <p>A pesar de que los lobos fueron cazados hasta casi su extinción en muchas regiones, los esfuerzos de conservación han permitido la recuperación de algunas poblaciones. Sin embargo, siguen siendo vulnerables en muchas áreas debido a la destrucción de su hábitat y la caza ilegal.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Información sobre Lobos. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
