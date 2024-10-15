@@ -91,10 +91,7 @@
         <a href="#conservacion">Conservación</a>
     </nav>
 
-    <section id="introduccion">
-        <h2>Introducción</h2>
-        <p>Los lobos son mamíferos carnívoros pertenecientes a la familia de los cánidos. Son conocidos por su inteligencia, habilidades sociales y su capacidad para vivir en manadas. Existen varias especies de lobos en el mundo, siendo el más común el lobo gris (<i>Canis lupus</i>).</p>
-    </section>
+ https://github.com/crisiiis/lobos/blob/main/7fd353ff9f88d0122b4dc605a43616b4.jpg?raw=true
 
     <section id="caracteristicas">
         <h2>Características</h2>
